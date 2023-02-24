@@ -126,14 +126,16 @@ void inorder(Node *root)
 
 
 // } Driver Code Ends
-/* struct Node {
-    int data;
-    Node* left;
-    Node* right;
-    Node* nextRight;
-};*/
+/* struct Node
+{
+  int data;
+  Node *left,  *right;
+  Node *nextRight;  // This has garbage value in input trees
+}; */
 
-class Solution{
+
+class Solution
+{
     private:
         void solve(Node* node, vector<Node*>& prevNode, int depth)
         {
@@ -154,15 +156,16 @@ class Solution{
         }
     
     public:
-        void connect(Node *root)
-        {
-            vector<Node*> prevNode;
-            solve(root, prevNode, 0);
-            for(auto x: prevNode)
-                x->nextRight = nullptr;
-        }    
+    //Function to connect nodes at same level.
+    void connect(Node *root)
+    {
+        vector<Node*> prevNode;
+        solve(root, prevNode, 0);
+        for(auto x: prevNode)
+            x->nextRight = nullptr;
+    }    
+      
 };
-
 
 
 
