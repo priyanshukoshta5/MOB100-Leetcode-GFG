@@ -1,2 +1,3 @@
 # MOB100-Leetcode
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+Leetcode and GeeksForGeeks problems submitted correctly.
+Created using [LeetHub](https://github.com/QasimWani/LeetHub)
