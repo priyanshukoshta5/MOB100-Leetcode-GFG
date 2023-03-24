@@ -10,7 +10,7 @@ public:
         int prev = nums[0];
         int streak = 1;
         
-        for(int i = 1;i < nums.size();i++)
+        for(int i=1; i<nums.size(); i++)
         {
             if(nums[i] == prev+1)
                 streak++;
