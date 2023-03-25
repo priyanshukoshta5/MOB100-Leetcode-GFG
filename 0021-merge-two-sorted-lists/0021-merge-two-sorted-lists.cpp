@@ -21,7 +21,7 @@ public:
         ListNode *cur2 = list2;
         ListNode *next2 = list2->next;
         prev1->next = cur1;
-        list1 = prev1;
+        ListNode *newHead = prev1;
         
         while(cur1 && cur2)
         {
@@ -46,7 +46,7 @@ public:
         if(cur1 == nullptr)
             prev1->next = cur2;
         
-        list1 = list1->next;
-        return list1;
+        newHead = newHead->next;
+        return newHead;
     }
 };
