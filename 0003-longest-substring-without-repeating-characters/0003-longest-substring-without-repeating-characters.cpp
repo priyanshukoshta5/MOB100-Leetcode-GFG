@@ -6,7 +6,7 @@ public:
         int i = 0;
         for(int j=0; j<s.length(); j++)
         {
-            // Just Jumping the left(i) pointer -> O(N) time complexity only
+            // Just jumping the i(left) pointer -> O(N) time complexity only
             if(mpIndex.find(s[j]) != mpIndex.end() && i <= mpIndex[s[j]])
                 i = mpIndex[s[j]]+1;
             mpIndex[s[j]] = j;
