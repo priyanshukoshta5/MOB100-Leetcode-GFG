@@ -26,6 +26,7 @@ public:
             nxt = nxt->next;
         }
         cur->next = prev;
+        
         return cur;
     }
 };
