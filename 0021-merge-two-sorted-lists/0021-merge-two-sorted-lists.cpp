@@ -16,12 +16,12 @@ public:
         if(list2 == nullptr)
             return list1;
         
-        ListNode *newHead = new ListNode();
-        ListNode *prev1 = newHead;
+        ListNode *prev1 = new ListNode();
         ListNode *cur1 = list1;
         ListNode *cur2 = list2;
         ListNode *next2 = list2->next;
         prev1->next = cur1;
+        list1 = prev1;
         
         while(cur1 && cur2)
         {
@@ -46,7 +46,7 @@ public:
         if(cur1 == nullptr)
             prev1->next = cur2;
         
-        newHead = newHead->next;
-        return newHead;
+        list1 = list1->next;
+        return list1;
     }
 };
