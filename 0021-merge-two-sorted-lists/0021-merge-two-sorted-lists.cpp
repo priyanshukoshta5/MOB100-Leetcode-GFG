@@ -11,38 +11,40 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode *newHead = new ListNode();
-        ListNode *cur = newHead;
-        ListNode *ll1 = list1;
-        ListNode *ll2 = list2;
+        if(list1 == nullptr)
+            return list2;
+        if(list2 == nullptr)
+            return list1;
         
-        while(ll1 && ll2)
+        ListNode *newHead = new ListNode();
+        ListNode *prev1 = newHead;
+        ListNode *cur1 = list1;
+        ListNode *cur2 = list2;
+        ListNode *next2 = list2->next;
+        prev1->next = cur1;
+        
+        while(cur1 && cur2)
         {
-            if(ll1->val <= ll2->val)
+            // If List1->val <= List2->val, Do nothing just move
+            if(cur1->val <= cur2->val)  
             {
-                cur->next = new ListNode(ll1->val);
-                cur = cur->next;
-                ll1 = ll1->next;
+                prev1 = cur1;
+                cur1 = cur1->next;
             }
+            // If List1->val > List2->val, insert the node of list2 in list1
             else
             {
-                cur->next = new ListNode(ll2->val);
-                cur = cur->next;
-                ll2 = ll2->next;
+                prev1->next = cur2;
+                cur2->next = cur1;
+                
+                prev1 = prev1->next;
+                cur2 = next2;
+                if(next2 != nullptr)
+                    next2 = cur2->next;
             }
         }
-        while(ll1)
-        {
-            cur->next = new ListNode(ll1->val);
-            cur = cur->next;
-            ll1 = ll1->next;
-        }
-        while(ll2)
-        {
-            cur->next = new ListNode(ll2->val);
-            cur = cur->next;
-            ll2 = ll2->next;
-        }
+        if(cur1 == nullptr)
+            prev1->next = cur2;
         
         newHead = newHead->next;
         return newHead;
