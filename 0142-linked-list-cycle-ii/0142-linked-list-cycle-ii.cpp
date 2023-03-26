@@ -20,13 +20,13 @@ public:
             fast = fast->next->next;
             if(slow == fast)
             {
-                ListNode *pos = head;
-                while(pos != slow)
+                fast = head;
+                while(fast != slow)
                 {
-                    pos = pos->next;
+                    fast = fast->next;
                     slow = slow->next;
                 }
-                return pos;
+                return slow;
             }
         }
         
