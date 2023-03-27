@@ -14,30 +14,45 @@ public:
 };
 */
 
-class Solution {
-private:
-    Node* solve(Node* node, unordered_map<Node*, Node*>& mp)
-    {
-        if(node == nullptr)
-            return node;
-
-        if(mp.find(node) != mp.end())
-            return mp[node];
-
-        Node* temp = new Node(node->val);
-        mp[node] = temp;
-
-        if(node->next != nullptr)
-            temp->next = solve(node->next, mp);
-        if(node->random != nullptr)
-            temp->random = solve(node->random, mp);
-
-        return temp;
-    }
-
-public:
+class Solution {public:
     Node* copyRandomList(Node* head) {
-        unordered_map<Node*, Node*> mp;
-        return solve(head, mp);
+        // Thanks to Striver.
+
+        // Step 1 -
+        Node* iter = head;
+        Node* front = head;
+        Node* copy;
+        while(iter != nullptr)
+        {
+            front = iter->next;
+            copy = new Node(iter->val);
+            iter->next = copy;
+            copy->next = front;
+            iter = front;
+        }
+
+        // Step 2 - 
+        iter = head;
+        while(iter != nullptr)
+        {
+            if(iter->random != nullptr)
+                iter->next->random = iter->random->next;
+            iter = iter->next->next;
+        }
+
+        // Step 3 - 
+        iter = head;
+        Node* pseudonode = new Node(0);
+        copy = pseudonode;
+        while(iter != nullptr)
+        {
+            front = iter->next->next;
+            copy->next = iter->next;
+            copy = copy->next;
+            iter->next = front;
+            iter = iter->next;
+        }
+
+        return pseudonode->next;
     }
 };
