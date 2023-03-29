@@ -17,8 +17,16 @@ struct Item{
 };
 */
 
-bool compare(pair<double,Item> a, pair<double,Item> b){
-    return a.first > b.first;
+bool compare(Item a, Item b){
+    double wt, val, ratio1, ratio2;
+    
+    wt = a.weight; val = a.value;
+    ratio1 = val/wt;
+    
+    wt = b.weight; val = b.value;
+    ratio2 = val/wt;
+    
+    return ratio1 > ratio2;
 }
 
 
@@ -28,21 +36,14 @@ class Solution
     //Function to get the maximum total value in the knapsack.
     double fractionalKnapsack(int W, Item arr[], int n)
     {
-        vector<pair<double, Item>> items;
-        for(int i=0; i<n; i++)
-        {
-            double itWt = arr[i].weight;
-            double itVal = arr[i].value;
-            items.push_back({itVal/itWt, arr[i]});
-        }
-        sort(items.begin(), items.end(), compare);
+        sort(arr, arr+n, compare);
         
         double answer = 0;
         int wtLeft = W;
         for(int i=0; i<n && wtLeft>0; i++)
         {
-            double itWt = items[i].second.weight;
-            double itVal = items[i].second.value;
+            double itWt = arr[i].weight;
+            double itVal = arr[i].value;
             if(wtLeft >= itWt)
             {
                 answer += itVal;
