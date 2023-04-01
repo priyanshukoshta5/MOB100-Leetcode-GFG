@@ -20,8 +20,8 @@ private:
 public:
     vector<string> wordBreak(string s, vector<string>& wordDict) {
         unordered_map<string, bool> dict;
-        for(string s: wordDict)
-            dict[s] = true;
+        for(string st: wordDict)
+            dict[st] = true;
         vector<string> ans;
         solve(s.length(), 0, s, "", dict, ans);
 
