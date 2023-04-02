@@ -13,39 +13,33 @@ public:
             if(mid == 0)
             {
                 if(nums[mid] != nums[mid+1])   
-                    return nums[mid];
+                    {ans = nums[mid]; break;}
                 else
                     low = mid+1;
             }
             else if(mid == n-1)
             {
                 if(nums[mid] != nums[mid-1])
-                    return nums[mid];
+                    {ans = nums[mid]; break;}
                 else
                     high = mid-1;
             }
             else
             {
+                int leftNums;
                 if(nums[mid] != nums[mid-1] && nums[mid] != nums[mid+1])
-                    return nums[mid];
+                    {ans = nums[mid]; break;}
                 else if(nums[mid] == nums[mid-1])
-                {
-                    int leftNums = mid - (1);
-                    if(leftNums%2 == 0)
-                        low = mid+1;
-                    else
-                        high = mid-1;
-                }
+                    leftNums = mid - (1);
                 else if(nums[mid] == nums[mid+1])
-                {
-                    int leftNums = mid;
-                    if(leftNums%2 == 0)
+                    leftNums = mid;
+                
+                if(leftNums%2 == 0)
                         low = mid+1;
                     else
                         high = mid-1;
-                }
             }
         }
-        return -1;
+        return ans;
     }
 };
