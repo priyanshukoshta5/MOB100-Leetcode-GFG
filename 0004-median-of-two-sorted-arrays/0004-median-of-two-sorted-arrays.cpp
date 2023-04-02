@@ -1,53 +1,38 @@
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        int n = nums1.size();
-        int m = nums2.size();
-        int median = (n+m)/2;
-        if((n+m)%2 == 0)
-            median--;
+        if(nums2.size() < nums1.size())
+            return findMedianSortedArrays(nums2, nums1);
         
-        int i = 0, j = 0, ans = 0, left = 0;
-        while(median>=0 && i<n && j<m)
+        int n1 = nums1.size();
+        int n2 = nums2.size();
+        int low = 0, high = n1;
+        
+        while(low <= high)
         {
-            if(nums1[i] <= nums2[j])
+            int cut1 = low + (high-low)/2;
+            int cut2 = (n1+n2+1)/2 - cut1;         // Plus 1 just to get the larger left side in case of ODD (n1+n2)
+            
+            int left1 = (cut1==0) ? INT_MIN : nums1[cut1-1];
+            int left2 = (cut2==0) ? INT_MIN : nums2[cut2-1];
+            
+            int right1 = (cut1==n1) ? INT_MAX : nums1[cut1];
+            int right2 = (cut2==n2) ? INT_MAX : nums2[cut2];
+            
+            // Reached the required partition.
+            if(left1 <= right2 && left2 <= right1)
             {
-                ans = nums1[i];
-                i++;
+                if((n1+n2)%2 == 1)
+                    return max(left1, left2);
+                else
+                    return (max(left1,left2) + min(right1,right2)) / 2.0;
             }
-            else
-            {
-                ans = nums2[j];
-                j++;
-            }
-            median--;
-        }
-        while(median >= 0 && i<n)
-        {
-            ans = nums1[i];
-            i++;
-            median--;
-        }
-        while(median >= 0 && j<m)
-        {
-            ans = nums2[j];
-            j++;
-            median--;
+            else if(left1 > right2)
+                high = cut1-1;
+            else 
+                low = cut1+1;
         }
         
-        if((n+m)%2 == 1)
-            return ans;
-        else
-        {
-            int next;
-            if(i<n && j<m)
-                next = min(nums1[i], nums2[j]);
-            else if(i<n)
-                next = nums1[i];
-            else if(j<m)
-                next = nums2[j];
-            return ((double)ans + (double)next)/ 2;
-        }
-        return -1;
+        return 0.0;
     }
 };
