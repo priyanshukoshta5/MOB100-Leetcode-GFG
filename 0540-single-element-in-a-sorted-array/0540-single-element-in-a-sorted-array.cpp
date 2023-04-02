@@ -1,45 +1,32 @@
 class Solution {
 public:
     int singleNonDuplicate(vector<int>& nums) {
-        int n = nums.size();
-        if(n == 1)
-            return nums[0];
+        // Striver
         
-        int low = 0, high = n-1, mid;
-        int ans = 0;
-        while(low <= high)
-        {
-            mid = low + (high-low)/2;
-            if(mid == 0)
-            {
-                if(nums[mid] != nums[mid+1])   
-                    {ans = nums[mid]; break;}
+        int n = nums.size();
+        int low = 0;
+        int high = n - 2;
+
+        while (low <= high) {
+            int mid = (low + high) / 2;
+
+            if (mid % 2 == 0) {
+                if (nums[mid] != nums[mid + 1]) 
+                //Checking whether we are in right half
+
+                    high = mid - 1; //Shrinking the right half
                 else
-                    low = mid+1;
-            }
-            else if(mid == n-1)
-            {
-                if(nums[mid] != nums[mid-1])
-                    {ans = nums[mid]; break;}
+                    low = mid + 1; //Shrinking the left half
+            } else {
+
+                //Checking whether we are in right half
+                if (nums[mid] == nums[mid + 1]) 
+                    high = mid - 1; //Shrinking the right half
                 else
-                    high = mid-1;
-            }
-            else
-            {
-                int leftNums;
-                if(nums[mid] != nums[mid-1] && nums[mid] != nums[mid+1])
-                    {ans = nums[mid]; break;}
-                else if(nums[mid] == nums[mid-1])
-                    leftNums = mid - (1);
-                else if(nums[mid] == nums[mid+1])
-                    leftNums = mid;
-                
-                if(leftNums%2 == 0)
-                        low = mid+1;
-                    else
-                        high = mid-1;
+                    low = mid + 1; //Shrinking the left half
             }
         }
-        return ans;
+
+        return nums[low];
     }
 };
