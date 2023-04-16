@@ -25,8 +25,10 @@ public:
     int numWays(vector<string>& words, string target) {
         int n = words.size();
         int len = words[0].length();
+        
         vector<vector<long long>> indFreq(len, vector<long long> (26,0));
         vector<vector<int>> dp(len, vector<int> (target.size(), -1));
+        
         for(int i=0; i<n; i++)
             for(int j=0; j<len; j++)
                 indFreq[j][words[i][j]-'a']++;
