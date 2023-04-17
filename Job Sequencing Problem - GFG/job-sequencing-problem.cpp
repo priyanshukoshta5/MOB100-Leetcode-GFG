@@ -23,8 +23,10 @@ struct Job
 };
 */
 
-bool comp(Job a, Job b){
-    return (a.profit > b.profit);
+bool compare(Job a, Job b){
+    if(a.profit == b.profit)
+        return a.dead < b.dead;
+    return a.profit > b.profit;
 }
 
 class Solution 
@@ -33,27 +35,25 @@ class Solution
     //Function to find the maximum profit and the number of jobs done.
     vector<int> JobScheduling(Job arr[], int n) 
     { 
-        sort(arr, arr+n, comp);
+        sort(arr, arr+n, compare);
+        vector<int> slot(101,0);
         
-        vector<int> booked(n+2, 0);
-        int jobs = 0, profit = 0;
+        vector<int> ans = {0,0};
         for(int i=0; i<n; i++)
         {
-            int j = arr[i].dead;
-            while(j>0)
+            Job x = arr[i];
+            int k = x.dead;
+            while(k >= 1 && slot[k] == 1)
+                k--;
+            if(k >= 1)
             {
-                if(booked[j] == 0)
-                {
-                    booked[j] = 1;
-                    jobs++;
-                    profit += arr[i].profit;
-                    break;
-                }
-                j--;
+                slot[k] = 1;
+                ans[0]++;
+                ans[1] += x.profit;
             }
         }
         
-        return {jobs, profit};
+        return ans;
     } 
 };
 
