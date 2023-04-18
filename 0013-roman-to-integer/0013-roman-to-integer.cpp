@@ -11,23 +11,12 @@ public:
         mp['M'] = 1000;
         
         int num = 0;
-        char ch;
-        int cnt = 0;
-        int i=0;
-        while(i < s.length())
+        for(int i=0; i<s.length(); i++)
         {
-            ch = s[i];
-            cnt = 0;
-            while(i<s.length() && s[i] == ch)
-            {
-                cnt++;
-                i++;
-            }
-            
-            if(i<s.length() && mp[s[i]] > mp[ch])
-                num -= cnt*mp[ch];
+            if((i+1) < s.length() && mp[s[i]] < mp[s[i+1]])
+                num -= mp[s[i]];
             else
-                num += cnt*mp[ch];
+                num += mp[s[i]];
         }
         
         return num;
