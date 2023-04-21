@@ -9,23 +9,13 @@ public:
             int cnt = 1;
             while(true)
             {
-                if(a[i] != b[j])
-                    break;
+                if(a[i] != b[j]) break;
+                if(j == m-1) return cnt;
+                if(i == n-1) cnt++;
                 
+                i = (i+1)%n;
                 j++;
-                if(j == m)
-                    return cnt;
-                
-                if(i == n-1)
-                {
-                    cnt++;
-                    i = 0;
-                }
-                else 
-                    i++;
             }
-            if(j == m)
-                return cnt;
         }
         return -1;
     }
