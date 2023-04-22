@@ -1,34 +1,37 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        int i=0, j=0;
-        queue<int> q;
-        while(i<haystack.length())
+        int n = haystack.length();
+        int m = needle.length();
+        long MOD = 1000000;
+
+        long power = 1;
+        for(int i=0; i<m; i++)
+            power = (power*31) % MOD;
+
+        long code = 0;
+        for(int i=0; i<m; i++)
+            code = (code*31 + needle[i]) % MOD;
+
+        long hash = 0;
+        for(int i=0; i<n; i++)
         {
-            if(haystack[i] == needle[0])
-                q.push(i);
-            if(haystack[i] == needle[j])
+            hash = (hash*31 + haystack[i]) % MOD;
+            if(i < m-1)
+                continue;
+            if(i >= m)
+                hash = (hash - power*haystack[i-m]) % MOD;
+
+            if(hash < 0)
+                hash += MOD;
+
+            if(hash == code)
             {
-                i++;
-                j++;
+                if(haystack.substr(i-m+1, m) == needle)
+                    return i-m+1;
             }
-            else
-            {
-                if(!q.empty())
-                {
-                    i = q.front()+1;
-                    q.pop();
-                    j = 1;
-                }
-                else
-                {
-                    i++;
-                    j = 0;
-                }
-            }
-            if(j == needle.length())
-                return (i-j);
         }
+
         return -1;
     }
 };
