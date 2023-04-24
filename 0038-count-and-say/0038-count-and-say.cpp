@@ -15,15 +15,15 @@ public:
                 {
                     if(cnt != 0)
                     {
-                        temp = temp + to_string(cnt);
-                        temp.push_back(ch);
+                        temp += (cnt+'0');
+                        temp += ch;
                     }
                     ch = c;
                     cnt = 1;
                 }
             }
-            temp = temp + to_string(cnt);
-            temp.push_back(ch);
+            temp += (cnt+'0');
+            temp += ch;
             ans = temp;
         }
         return ans;
