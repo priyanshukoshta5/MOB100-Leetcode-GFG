@@ -1,37 +1,59 @@
 class Solution {
 public:
+    void makeLPS(string& pat, int m, vector<int>& lps){
+        int len = 0;
+        lps[0] = 0;
+        int i = 1;
+        
+        while(i < m)
+        {
+            if(pat[i] == pat[len])
+            {
+                len++;
+                lps[i] = len;
+                i++;
+            }
+            else
+            {
+                if(len != 0)
+                    len = lps[len-1];
+                else
+                {
+                    lps[i] = 0;
+                    i++;
+                }
+            }
+        }
+    }
+    
     int strStr(string haystack, string needle) {
         int n = haystack.length();
         int m = needle.length();
-        long MOD = 1000000;
-
-        long power = 1;
-        for(int i=0; i<m; i++)
-            power = (power*31) % MOD;
-
-        long code = 0;
-        for(int i=0; i<m; i++)
-            code = (code*31 + needle[i]) % MOD;
-
-        long hash = 0;
-        for(int i=0; i<n; i++)
+        
+        vector<int> lps(m);
+        makeLPS(needle, m, lps);
+        
+        int i = 0;  // for haystack
+        int j = 0;  // for needle
+        
+        while(i < n)
         {
-            hash = (hash*31 + haystack[i]) % MOD;
-            if(i < m-1)
-                continue;
-            if(i >= m)
-                hash = (hash - power*haystack[i-m]) % MOD;
-
-            if(hash < 0)
-                hash += MOD;
-
-            if(hash == code)
+            if(haystack[i] == needle[j])
             {
-                if(haystack.substr(i-m+1, m) == needle)
-                    return i-m+1;
+                i++;
+                j++;
+                if(j == m)
+                return (i-j);
+            }
+            else if(haystack[i] != needle[j])
+            {
+                if(j != 0)
+                    j = lps[j-1];
+                else
+                    i++;
             }
         }
-
+        
         return -1;
     }
 };
