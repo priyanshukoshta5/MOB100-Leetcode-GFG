@@ -17,13 +17,10 @@ public:
         
         int left = max(0, traverse(node->left, ans));
         int right = max(0, traverse(node->right, ans));
+
+        ans = max(ans, node->val + left + right);
         
-        ans = max(ans, node->val);
-        ans = max(ans, node->val + left);
-        ans = max(ans, node->val + right);
-        ans = max(ans, node->val + left+right);
-        
-        return max(0, node->val + max(left, right));
+        return node->val + max(left, right);
     }
     
     int maxPathSum(TreeNode* root) {
