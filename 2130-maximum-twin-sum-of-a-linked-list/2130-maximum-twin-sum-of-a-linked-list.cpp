@@ -11,22 +11,18 @@
 class Solution {
 public:
     int pairSum(ListNode* head) {
-        deque<int> dq;
+        vector<int> vals;
         ListNode* temp = head;
         while(temp != nullptr)
         {
-            dq.push_back(temp->val);
-            dq.push_back(temp->next->val);
+            vals.push_back(temp->val);
+            vals.push_back(temp->next->val);
             temp = temp->next->next;
         }
         
         int ans = INT_MIN;
-        while(!dq.empty())
-        {
-            ans = max(ans, dq.front()+dq.back());
-            dq.pop_front();
-            dq.pop_back();
-        }
+        for(int i=0, j=vals.size()-1; i<j; i++, j--)
+            ans = max(ans, vals[i]+vals[j]);
         
         return ans;
     }
