@@ -12,25 +12,21 @@
 class Solution {
 public:
     void flatten(TreeNode* root) {
-        if(root == nullptr)
-            return;
-
-        flatten(root->left);
-        flatten(root->right);
+        // Thanks Striver
         
-        if(root->left == nullptr)
-            return;
-
-        TreeNode *left = root->left;
-        TreeNode *right = root->right;
-    
-        root->left = nullptr;
-        root->right = left;
-
-        TreeNode *temp = root->right;
-        while(temp->right != nullptr)
-            temp = temp->right;
-
-        temp->right = right;
+        TreeNode* cur = root;
+        while(cur)
+        {
+            if(cur->left)
+            {
+                TreeNode* pre = cur->left;
+                while(pre->right)
+                    pre = pre->right;
+                pre->right = cur->right;
+                cur->right = cur->left;
+                cur->left = nullptr;
+            }
+            cur = cur->right;
+        }
     }
 };
