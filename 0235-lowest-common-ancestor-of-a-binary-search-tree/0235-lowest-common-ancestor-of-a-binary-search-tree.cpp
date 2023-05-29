@@ -8,32 +8,25 @@
  * };
  */
 
+// ~Striver
+
 class Solution {
-private:
-    
-    
 public:
-    TreeNode* lca; 
-    
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        // TreeNode* lca = nullptr;
-        if(p->val > q->val)
-            swap(p, q);
-        solve(root, p, q);
-        return lca;
-    }
-    
-    void solve(TreeNode* root, TreeNode* p, TreeNode* q){
         if(root == nullptr)
-            return;
+            return nullptr;
         
-        if(p->val <= root->val && root->val <= q->val)
-        {
-            lca = root;
-            return;
-        }
+        int val = root->val;
         
-        solve(root->left, p, q);
-        solve(root->right, p, q);
+        // If both(p,q) lies on LEFT, move left
+        if(val > p->val && val > q->val)
+            return lowestCommonAncestor(root->left, p, q);
+        
+        // If both(p,q) lies on RIGHT, move right
+        if(val < p->val && val < q->val)
+            return lowestCommonAncestor(root->right, p, q);
+        
+        // If not able to determine return root => LCA;
+        return root;
     }
 };
