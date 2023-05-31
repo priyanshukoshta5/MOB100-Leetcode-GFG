@@ -17,15 +17,21 @@ public:
     void checkOut(int id, string stationName, int t) {
         int time_taken = t - id_time[id];
         string path = id_start[id] + "->" + stationName;
-        if(stationAvg.find(path) == stationAvg.end()){
+        
+        if(stationAvg.find(path) == stationAvg.end())
+        {
             stationAvg[path] = {time_taken, 1};
         }
-        else{
+        else
+        {
             int nos = stationAvg[path].second;
             double total_time = time_taken + stationAvg[path].first * nos;
             nos++;
             stationAvg[path] = {total_time / (double)nos, nos};
         }
+        
+        id_time.erase(id);
+        id_start.erase(id);
     }
     
     double getAverageTime(string startStation, string endStation) {
