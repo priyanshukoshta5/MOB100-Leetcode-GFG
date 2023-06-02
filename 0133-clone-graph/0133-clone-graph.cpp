@@ -23,28 +23,21 @@ public:
 
 class Solution {
 private:
-    Node* clone(Node* node, unordered_map<Node*, Node*>& copies){
-        // If the node is already present in the hashmap, we will use it
-        if(copies.find(node) != copies.end())
-            return copies[node];
-
-        // Creating a dummy/copy node
-        Node* newNode = new Node(node->val);
-        copies[node] = newNode;
-
-        // Marking all neighbors
-        for(auto it: node->neighbors)
-            newNode->neighbors.push_back(clone(it, copies));
-
-        return newNode;
-    }
+    unordered_map<Node*, Node*> copies; // to store {original,copy}
 
 public:
     Node* cloneGraph(Node* node) {
         if(node == nullptr)
             return nullptr;
         
-        unordered_map<Node*, Node*> copies; // to store {original,copy}
-        return clone(node, copies);;
+        if(copies.find(node) == copies.end())
+        {
+            Node* newNode = new Node(node->val);
+            copies[node] = newNode;
+            for(auto it: node->neighbors)
+                newNode->neighbors.push_back(cloneGraph(it));
+        }
+        
+        return copies[node];
     }
 };
