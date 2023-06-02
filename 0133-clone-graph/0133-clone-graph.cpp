@@ -24,9 +24,6 @@ public:
 class Solution {
 private:
     Node* clone(Node* node, unordered_map<Node*, Node*>& copies){
-        if(node == nullptr)
-            return node;
-
         // If the node is already present in the hashmap, we will use it
         if(copies.find(node) != copies.end())
             return copies[node];
@@ -44,6 +41,9 @@ private:
 
 public:
     Node* cloneGraph(Node* node) {
+        if(node == nullptr)
+            return nullptr;
+        
         unordered_map<Node*, Node*> copies; // to store {original,copy}
         return clone(node, copies);;
     }
