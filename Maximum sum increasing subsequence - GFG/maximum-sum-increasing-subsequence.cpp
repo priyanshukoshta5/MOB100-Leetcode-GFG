@@ -4,31 +4,29 @@ using namespace std;
 
 // } Driver Code Ends
 class Solution{
-	private:
-	    int solve(int arr[], int n, int i, int prev, vector<vector<int>>& dp){
-	        if(i == n)
-	            return 0;
-	        
-	        if(dp[i][prev+1] != -1)
-	            return dp[i][prev+1];
-	        
-	        // Not take
-	        int notTake = solve(arr, n, i+1, prev, dp);
-	        
-	        // Take
-	        int take = -1;
-	        if(arr[i] > arr[prev])
-	            take = arr[i] + solve(arr, n, i+1, i, dp);
-	            
-	        return dp[i][prev+1] = max(take, notTake);
-	    }
+		
 
 	public:
-    	int maxSumIS(int arr[], int n)  
-    	{  
-    	    vector<vector<int>> dp(n, vector<int> (n+1,-1)); // {curIndex, prevIndex};
-    	    return solve(arr, n, 0, -1, dp);
-    	}  
+	int maxSumIS(int arr[], int n)  
+	{  
+	    vector<int> dp(n);
+	    for(int i = 0; i < n; i++)
+	        dp[i] = arr[i];
+	        
+	    int ans = arr[0];      
+	        
+	    for(int i = 1; i < n; i++)
+	    {
+	        for(int j = 0; j < i; j++)
+	        {
+	            if(arr[i] > arr[j])
+	                dp[i] = max(dp[i], arr[i] + dp[j]);
+	        }
+            ans = max(ans, dp[i]);
+	    }
+	    
+	    return ans;
+	}  
 };
 
 //{ Driver Code Starts.
