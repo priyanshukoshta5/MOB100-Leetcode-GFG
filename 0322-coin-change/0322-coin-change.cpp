@@ -1,29 +1,23 @@
+// ~ Ajna
+
 class Solution {
 public:
-    int coinChange(vector<int>& coins, int amount) {
-        if(amount == 0)
-            return 0;
-
-        vector<int> prev(amount + 1, 0), cur(amount + 1, 0);
-        for(int amt = 0; amt <= amount; amt++)
-        {
-            if(amt % coins[0] == 0) prev[amt] = amt / coins[0];
-            else prev[amt] = 1e9;
-        }
-        
-        for(int i = 1; i < coins.size(); i++)
-        {
-            for(int amt = 0; amt <= amount; amt++)
-            {
-                int notTake = 0 + prev[amt];
-                int take = 1e9;
-                if(coins[i] <= amt)
-                    take = 1 + cur[amt - coins[i]];
-                cur[amt] = min(take, notTake);
+    int coinChange(vector<int>& coins, int n) {
+        // creating the base dp array, with first value set to 0
+        int dp[++n];
+        dp[0] = 0;
+        // more convenient to have the coins sorted
+        sort(begin(coins), end(coins));
+        // populating our dp array
+        for (int i = 1; i < n; i++) {
+            // setting dp[0] base value to 1, 0 for all the rest
+            dp[i] = INT_MAX;
+            for (int c: coins) {
+                if (i - c < 0) break;
+                // if it was a previously not reached cell, we do not add use it
+                if (dp[i - c] != INT_MAX) dp[i] = min(dp[i], 1 + dp[i - c]);
             }
-            prev = cur;
         }
-        
-        return prev[amount] >= 1e9 ? -1 : prev[amount];
+        return dp[--n] == INT_MAX ? -1 : dp[n];
     }
 };
