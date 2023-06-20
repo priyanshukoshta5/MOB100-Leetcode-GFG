@@ -8,32 +8,32 @@ using namespace std;
 // User function Template for C++
 
 class Solution{
-private:
-    int dp[101][101];
-
-    int solve(int arr[], int i, int j){
-        if(i >= j)
-            return 0;
-            
-        if(dp[i][j] != -1)
-            return dp[i][j];
-            
-        int ans = INT_MAX;
-        for(int k = i; k <= j-1; k++)
-        {
-            int cost = arr[i-1] * arr[k] * arr[j];
-            int temp = solve(arr, i, k) + cost + solve(arr, k+1, j);
-            ans = min(ans, temp);
-        }
-        
-        return dp[i][j] = ans;
-    }
-    
 public:
     int matrixMultiplication(int N, int arr[])
     {
-        memset(dp, -1, sizeof(dp));
-        return solve(arr, 1, N-1);
+        vector<vector<int>> dp(N, vector<int> (N, -1));
+        
+        // Base Case
+        for(int i = 1; i < N; i++)
+            dp[i][i] = 0;
+        
+        // Bottom Up DP
+        for(int i = N-1; i >= 1; i--)
+        {
+            for(int j = i+1; j < N; j++)        // Taking j=i+1, as we want elements between i and j (i must be < j)
+            {
+                int res = INT_MAX;
+                for(int k = i; k < j; k++)
+                {
+                    int cost = arr[i-1] * arr[k] * arr[j];
+                    int temp = dp[i][k] + cost + dp[k+1][j];
+                    res = min(res, temp);
+                }
+                dp[i][j] = res;
+            }
+        }
+        
+        return dp[1][N-1];
     }
 };
 
