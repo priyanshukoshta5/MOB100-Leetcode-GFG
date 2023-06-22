@@ -9,25 +9,31 @@ using namespace std;
 // User function Template for C++
 
 class Solution{
-private:
-    int solve(int pos, int price[], int n, vector<int>& dp){
-        if(pos == n)
-            return 0;
-            
-        if(dp[pos] != -1)
-            return dp[pos];
-            
-        int maxPrice = 0;
-        for(int i = 0; i < (n-pos); i++)
-            maxPrice = max(maxPrice, price[i] + solve(pos + i + 1, price, n, dp));
-        
-        return dp[pos] = maxPrice;
-    }
-        
-public:
+  public:
     int cutRod(int price[], int n) {
-        vector<int> dp(n+1, -1);
-        return solve(0, price, n, dp);
+        vector<int> prev(n+1, 0), cur(n+1, 0);
+        
+        // Base Case
+        for(int N = 0; N <= n; N++)
+        	prev[N] = N * price[0];
+        
+        for(int ind = 1; ind < n; ind++)
+        {
+        	for(int N = 0; N <= n; N++)
+        	{
+        		int notTake = 0 + prev[N];
+        
+        		int take = INT_MIN;
+        		int rodLen = ind+1;
+        		if(rodLen <= N)
+        			take = price[ind] + cur[N-rodLen];
+        
+        		cur[N] = max(take, notTake);
+        	}
+        	prev = cur;
+        }
+        
+        return prev[n];
     }
 };
 
