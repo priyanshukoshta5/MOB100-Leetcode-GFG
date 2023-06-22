@@ -11,7 +11,7 @@ using namespace std;
 class Solution{
   public:
     int cutRod(int price[], int n) {
-        vector<int> prev(n+1, 0), cur(n+1, 0);
+        vector<int> prev(n+1, 0);
         
         // Base Case
         for(int N = 0; N <= n; N++)
@@ -26,11 +26,10 @@ class Solution{
         		int take = INT_MIN;
         		int rodLen = ind+1;
         		if(rodLen <= N)
-        			take = price[ind] + cur[N-rodLen];
+        			take = price[ind] + prev[N-rodLen];
         
-        		cur[N] = max(take, notTake);
+        		prev[N] = max(take, notTake);
         	}
-        	prev = cur;
         }
         
         return prev[n];
