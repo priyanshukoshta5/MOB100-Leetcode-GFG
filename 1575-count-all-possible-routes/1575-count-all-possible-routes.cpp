@@ -1,34 +1,33 @@
-// Recursion + Memoization
+// Tabulation DP, Bottom - Up
 
 class Solution {
 private:
     int MOD = 1e9+7;
-
-    int solve(int ind, int fuel, int finish, vector<int>& locations, vector<vector<int>> &dp){
-        if(dp[ind][fuel] != -1)
-            return dp[ind][fuel];
-        
-        long long cnt = 0;
-
-        if(ind == finish)
-            cnt = 1;
-
-        for(int loc = 0; loc < locations.size(); loc++)
-        {
-            int fuelReq = abs(locations[loc] - locations[ind]);
-            if(loc != ind && fuelReq <= fuel)
-            {
-                cnt += solve(loc, fuel - fuelReq, finish, locations, dp);
-                cnt %= MOD;
-            }
-        }
-
-        return dp[ind][fuel] = cnt;
-    }
-
+    
 public:
     int countRoutes(vector<int>& locations, int start, int finish, int fuel) {
-        vector<vector<int>> dp(locations.size(), vector<int> (fuel+1, -1));
-        return solve(start, fuel, finish, locations, dp);
+        int n = locations.size();
+        
+        vector<vector<int>> dp(n, vector<int> (fuel+1));
+        for(int f = 0; f <= fuel; f++)
+            dp[finish][f] = 1;
+        
+        for(int f = 0; f <= fuel; f++)
+        {
+            for(int ind = 0; ind < n; ind++)
+            {
+                for(int loc = 0; loc < n; loc++)
+                {
+                    int fuelReq = abs(locations[loc] - locations[ind]);
+                    if(loc != ind && fuelReq <= f)
+                    {
+                        dp[ind][f] += dp[loc][f - fuelReq];
+                        dp[ind][f] %= MOD;
+                    }
+                }
+            }
+        }
+        
+        return dp[start][fuel];
     }
 };
