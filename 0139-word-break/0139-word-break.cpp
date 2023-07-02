@@ -1,32 +1,24 @@
 class Solution {
-private:
-    bool wordBreak(int ind, string& s, set<string> &st, vector<int> &dp){
-        if(ind == s.length())
-            return true;
-        if(dp[ind] != -1)
-            return dp[ind];
-        
-        string str = "";
-        for(int i = ind; i < s.length(); i++)
-        {
-            str.push_back(s[i]);
-            if(st.find(str) != st.end())
-            {
-                if(wordBreak(i+1, s, st, dp) == true)
-                    return dp[ind] = true;
-            }
-        }
-        
-        return dp[ind] = false;
-    }
-    
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
-        set<string> st;
-        for(string s: wordDict)
-            st.insert(s);
-        
-        vector<int> dp(s.length(), -1);
-        return wordBreak(0, s, st, dp);
+        int len = s.length();
+        vector<bool> dp(len+1, false);
+
+        // Base Case
+        dp[len] = true;
+
+        for(int i = len-1; i >= 0; i--)
+        {
+            for(string w: wordDict)
+            {
+                // if there are enough characters to compare + comparing the word w with string starting from i;
+                if((i + w.length()) <= len && s.substr(i, w.length()) == w)
+                    dp[i] = dp[i + w.length()];
+                if(dp[i] == true)       // We dont want to check if satisfied for a case
+                    break;
+            }
+        }
+
+        return dp[0];
     }
 };
