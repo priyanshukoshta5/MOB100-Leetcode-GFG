@@ -1,19 +1,24 @@
 class Solution {
 public:
     int minSubArrayLen(int target, vector<int>& nums) {
+        if(nums[0] >= target)
+            return 1;
+        
+        vector<int> prefSum(nums.size());
+        prefSum[0] = nums[0];
+        for(int i = 1; i < nums.size(); i++)
+            prefSum[i] = prefSum[i-1] + nums[i];
+        
         int ans = INT_MAX;
-        int i = 0;
-        int sum = 0;
         for(int j = 0; j < nums.size(); j++)
         {
-            sum += nums[j];
-            while(i <= j && sum >= target)
+            if(prefSum[j] >= target)
             {
+                int i = upper_bound(prefSum.begin(), prefSum.begin() + j, prefSum[j] - target) - prefSum.begin();
                 ans = min(ans, j-i+1);
-                sum -= nums[i];
-                i++;
             }
         }
+        
         return ans == INT_MAX ? 0 : ans;
     }
 };
