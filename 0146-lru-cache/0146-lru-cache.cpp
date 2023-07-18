@@ -1,37 +1,39 @@
-struct DoubleLL{
+struct doublyLL{
     int key;
-    int val; 
-    DoubleLL *prev;
-    DoubleLL *next;
-    DoubleLL(int k, int data){
+    int val;
+    doublyLL *next;
+    doublyLL *prev;
+    doublyLL(int k, int value){
         key = k;
-        val = data;
-        prev = nullptr;
-        next = nullptr;
+        val = value;
+        next = prev = nullptr;
     }
 };
 
 class LRUCache {
-public:
-    DoubleLL *head = new DoubleLL(0,0);
-    DoubleLL *tail = new DoubleLL(0,0);
+private:
     int size;
-    unordered_map<int,DoubleLL* > mp;
+    int cnt;
+    doublyLL *head; 
+    doublyLL *tail;
+    unordered_map<int, doublyLL *> mp;  // to store key:value pairs
 
 public:
     LRUCache(int capacity) {
         size = capacity;
+        cnt = 0;
+        head = new doublyLL(-1, -1);
+        tail = new doublyLL(-1, -1);
         head->next = tail;
         tail->prev = head;
     }
     
-    void deleteNode(DoubleLL *node){
+    void deleteNode(doublyLL *node){
         node->prev->next = node->next;
         node->next->prev = node->prev;
     }
-
     
-    void insertNodeAtStart(DoubleLL *node){
+    void insertAtStart(doublyLL *node){
         head->next->prev = node;
         node->next = head->next;
         head->next = node;
@@ -39,37 +41,38 @@ public:
     }
     
     int get(int key) {
-        if(mp.find(key) == mp.end())
-            return -1;
-        
-        DoubleLL *temp = mp[key];
-        deleteNode(temp);
-        insertNodeAtStart(temp);
-
-        return temp->val;
+        if(mp.find(key) != mp.end())
+        {
+            doublyLL *node = mp[key];
+            deleteNode(node);
+            insertAtStart(node);
+            return node->val;
+        }
+        return -1;
     }
     
     void put(int key, int value) {
         if(mp.find(key) != mp.end())
         {
-            DoubleLL *temp = mp[key];
-            temp->val = value;
-            deleteNode(temp);
-            insertNodeAtStart(temp);
+            doublyLL *node = mp[key];
+            deleteNode(node);
+            insertAtStart(node);
+            node->val = value;
         }
-        else if(mp.size() == size)
+        else if(cnt == size)
         {
             mp.erase(tail->prev->key);
             deleteNode(tail->prev);
-            DoubleLL *temp = new DoubleLL(key,value);
-            insertNodeAtStart(temp);
-            mp[key] = temp;
+            doublyLL *node = new doublyLL(key, value);
+            insertAtStart(node);
+            mp[key] = node;
         }
-        else if(mp.size() < size)
+        else
         {
-            DoubleLL *temp = new DoubleLL(key,value);
-            insertNodeAtStart(temp);
-            mp[key] = temp;
+            doublyLL *node = new doublyLL(key, value);
+            insertAtStart(node);
+            mp[key] = node;
+            cnt++;
         }
     }
 };
