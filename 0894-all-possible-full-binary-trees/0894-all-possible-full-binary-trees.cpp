@@ -12,24 +12,10 @@
 class Solution {
 private:
     vector<TreeNode*> solve(int n, vector<vector<TreeNode*>> &dp){
-        vector<TreeNode*> res;
-        
         if(dp[n].size() != 0)
             return dp[n];
-        if(n == 1)
-        {
-            TreeNode *temp = new TreeNode(0);
-            res.push_back(temp);
-            return dp[n] = res;
-        }
-        if(n == 3)
-        {
-            TreeNode *temp = new TreeNode(0);
-            temp->left = new TreeNode(0);
-            temp->right = new TreeNode(0);
-            res.push_back(temp);
-            return dp[n] = res;
-        }
+        
+        vector<TreeNode*> res;
 
         vector<TreeNode*> leftTree;
         vector<TreeNode*> rightTree;
@@ -62,6 +48,7 @@ public:
             return {};
 
         vector<vector<TreeNode*>> dp(n+1);
+        dp[1].push_back(new TreeNode(0));
         return solve(n, dp);
     }
 };
