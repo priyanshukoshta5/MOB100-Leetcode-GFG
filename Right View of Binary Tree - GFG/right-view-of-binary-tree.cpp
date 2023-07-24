@@ -39,24 +39,27 @@ struct Node
 // Should return  right view of tree
 class Solution
 {
-    private:
-    void solve(Node *node, vector<int> &ans, int depth){
-        if(node == nullptr)
-            return;
-            
-        if(ans.size() == depth)
-            ans.push_back(node->data);
-        
-        solve(node->right, ans, depth+1);
-        solve(node->left, ans, depth+1);
-    }
-    
     public:
     //Function to return list containing elements of right view of binary tree.
     vector<int> rightView(Node *root)
     {
        vector<int> ans;
-       solve(root, ans, 0);
+       stack<pair<Node*, int>> stk;     // {Node, depth}
+       stk.push({root, 0});
+       while(!stk.empty())
+       {
+           Node *node = stk.top().first;
+           int dp = stk.top().second;
+           stk.pop();
+           
+           if(ans.size() == dp)
+                ans.push_back(node->data);
+                
+           if(node->left != nullptr)
+                stk.push({node->left, dp+1});
+           if(node->right != nullptr)
+                stk.push({node->right, dp+1});
+       }
        return ans;
     }
 };
