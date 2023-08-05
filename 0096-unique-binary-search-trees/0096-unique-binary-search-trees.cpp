@@ -1,11 +1,5 @@
 class Solution {
-public:
-    int numTrees(int n) {
-        vector<int> dp(n+1, -1);
-        dp[0] = 1;
-        return solve(n, dp);
-    }
-
+private:
     int solve(int n, vector<int> &dp)
     {
         if(dp[n]!=-1)
@@ -20,5 +14,12 @@ public:
         }  
 
         return dp[n] = cnt;
+    }
+    
+public:
+    int numTrees(int n) {
+        vector<int> dp(n+1, -1);
+        dp[0] = 1;
+        return solve(n, dp);
     }
 };
