@@ -1,25 +1,27 @@
 class Solution {
-private:
-    int coinChange(vector<int>& coins, int ind, int T, vector<vector<int>>& dp){
-        if(ind == 0)
-            return (T % coins[0] == 0);
-        
-        if(dp[ind][T] != -1)
-            return dp[ind][T];
-            
-        int notTaken = coinChange(coins, ind - 1, T, dp);
-        
-        int taken = 0;
-        if(coins[ind] <= T)
-            taken = coinChange(coins, ind, T - coins[ind], dp);
-            
-        return dp[ind][T] = notTaken + taken;
-    }
-
 public:
     int change(int amount, vector<int>& coins) {
         int n = coins.size();
-        vector<vector<int>> dp(n, vector<int>(amount + 1, -1));
-        return coinChange(coins, n - 1, amount, dp);
+        
+        vector<int> prev(amount + 1, 0), cur(amount + 1, 0);
+        for(int s = 0; s <= amount; s++)
+            if(s % coins[0] == 0)
+                prev[s] = 1;
+        
+        for(int i = 1; i < n; i++)
+        {
+            for(int s = 0; s <= amount; s++)
+            {
+                int notTake = prev[s];
+                int take = 0;
+                if(coins[i] <= s)
+                    take = cur[s - coins[i]];
+                    
+                cur[s] = notTake + take;
+            }
+            prev = cur;
+        }
+        
+        return prev[amount];
     }
 };
