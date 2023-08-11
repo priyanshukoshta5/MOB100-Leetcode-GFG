@@ -7,25 +7,26 @@ class Solution {
     
   public:
     long long int count(int coins[], int N, int sum) {
-        vector<vector<long long int>> dp(N, vector<long long int>(sum + 1, 0));
+        vector<long long int> prev(sum + 1, 0), cur(sum + 1, 0);
         for(int s = 0; s <= sum; s++)
             if(s % coins[0] == 0)
-                dp[0][s] = 1;
+                prev[s] = 1;
         
         for(int i = 1; i < N; i++)
         {
             for(int s = 0; s <= sum; s++)
             {
-                long long int notTake = dp[i - 1][s];
+                long long int notTake = prev[s];
                 long long int take = 0;
                 if(coins[i] <= s)
-                    take = dp[i][s - coins[i]];
+                    take = cur[s - coins[i]];
                     
-                dp[i][s] = notTake + take;
+                cur[s] = notTake + take;
             }
+            prev = cur;
         }
         
-        return dp[N-1][sum];
+        return prev[sum];
     }
 };
 
