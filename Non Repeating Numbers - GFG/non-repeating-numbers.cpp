@@ -3,23 +3,44 @@
 using namespace std;
 
 // } Driver Code Ends
-class Solution
-{
+
+// Editorial
+
+class Solution {
 public:
     vector<int> singleNumber(vector<int> nums) 
     {
-        map<int,int> freq;
+        // Pass 1 : 
+        // Get the XOR of the two numbers we need to find
+        int diff = 0;
         for(int i: nums)
-            freq[i]++;
+        	diff = i ^ diff;
+        	
+        // Get its last set bit
+        diff &= -diff;
         
-        vector<int> ans;
-        for(auto x: freq)
-            if(x.second == 1)
-                ans.push_back(x.first);
-                
-        return ans;
+        // Pass 2 :
+        vector<int> rets = {0, 0}; // this vector stores the two numbers we will return
+        for (int num : nums)
+        {
+            if ((num & diff) == 0) // the bit is not set
+            {
+                rets[0] ^= num;
+            }
+            else // the bit is set
+            {
+                rets[1] ^= num;
+            }
+        }
+        
+        if(rets[0] > rets[1])
+        	swap(rets[0], rets[1]);
+        	
+        return rets;
     }
 };
+
+
 
 //{ Driver Code Starts.
 int main(){
