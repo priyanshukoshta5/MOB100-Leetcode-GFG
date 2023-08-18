@@ -8,8 +8,6 @@ public:
             adj[e[0]].push_back(e[1]);
             adj[e[1]].push_back(e[0]);
         }
-        for(int i = 0; i < n; i++)
-            sort(adj[i].begin(), adj[i].end());
 
         // taking all pairs of nodes, and finding answer
         int ans = 0;
@@ -19,7 +17,7 @@ public:
             {
                 int res = adj[i].size() + adj[j].size();    
                 // if there is a road between i and j
-                if(binary_search(adj[i].begin(), adj[i].end(), j))   
+                if(find(adj[i].begin(), adj[i].end(), j) != adj[i].end())   
                     res--;
                 ans = max(ans, res);
             }
