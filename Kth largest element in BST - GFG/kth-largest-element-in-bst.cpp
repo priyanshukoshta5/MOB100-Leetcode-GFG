@@ -97,28 +97,30 @@ struct Node {
 class Solution
 {
     private:
-    void inorder(Node* root, int& k, int& kth){
+    int kth(Node *root, int &k){
         if(root == nullptr || k < 0)
-            return;
-
-        if(root->right != nullptr)
-            inorder(root->right, k, kth);
+            return -1;
+            
+        int temp1 = kth(root->right, k);
+        if(temp1 != -1)
+            return temp1;
+            
         k--;
         if(k == 0)
-        {
-            kth = root->data;
-            return;
-        }
-        if(root->left != nullptr)
-            inorder(root->left, k, kth);
+            return root->data;
+        
+        int temp2 = kth(root->left, k);
+        if(temp2 != -1)
+            return temp2;
+            
+        return -1;
     }
     
     public:
-    int kthLargest(Node *root, int k)
+    int kthLargest(Node *root, int K)
     {
-        int kth = -1;
-        inorder(root, k, kth);
-        return kth;
+        int k = K;
+        return kth(root, k);
     }
 };
 
