@@ -8,23 +8,6 @@ using namespace std;
 // User function Template for C++
 
 class Solution{
-private:
-    bool subsetSum(int ind, int sum, int arr[], vector<vector<int>> &dp){
-        if(sum == 0)
-            return true;
-        if(ind < 0)
-            return false;
-        if(dp[ind][sum] != -1)
-            return dp[ind][sum];
-        
-        bool notTake = subsetSum(ind - 1, sum, arr, dp);
-        bool take = false;
-        if(arr[ind] <= sum)
-            take = subsetSum(ind - 1, sum - arr[ind], arr, dp);
-        
-        return dp[ind][sum] = take | notTake;
-    }
-    
 public:
     int equalPartition(int N, int arr[])
     {
@@ -35,8 +18,29 @@ public:
         if(sum % 2 != 0)
             return false;
             
-        vector<vector<int>> dp(N, vector<int> (sum / 2 + 1, -1));
-        return subsetSum(N - 1, sum / 2, arr, dp);
+        int target = sum / 2;
+        vector<vector<bool>> dp(N, vector<bool> (target + 1, false));
+        
+        // base cases
+        for(int i = 0; i < N; i++)
+            dp[i][0] = true;
+        for(int s = 1; s <= target; s++)
+            dp[0][s] = false;
+        
+        for(int i = 1; i < N; i++)
+        {
+            for(int s = 1; s <= target; s++)
+            {
+                bool notTake = dp[i - 1][s];
+                bool take = false;
+                if(arr[i] <= s)
+                    take = dp[i - 1][s - arr[i]];
+                
+                dp[i][s] = take | notTake;
+            }
+        }
+        
+        return dp[N - 1][target];
     }
 };
 
