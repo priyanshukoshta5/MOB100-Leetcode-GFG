@@ -6,28 +6,28 @@ typedef long long int ll;
 // } Driver Code Ends
 class Solution
 {
-    private:
-    int solve(int ind, int arr[], vector<int> &dp){
-        if(ind < 0)
-            return 0;
-        if(dp[ind] != -1)
-            return dp[ind];
-        
-        // loot current house
-        int loot = arr[ind] + solve(ind - 2, arr, dp);
-        
-        // do not loot current house
-        int notLoot = solve(ind - 1, arr, dp);
-        
-        return dp[ind] = max(loot, notLoot);
-    }
-    
     public:
     //Function to find the maximum money the thief can get.
     int FindMaxSum(int arr[], int n)
     {
-        vector<int> dp(n, -1);
-        return solve(n - 1, arr, dp);
+        vector<int> dp(n + 2, 0);
+        
+        // base case
+        dp[n] = 0;
+        dp[n + 1] = 0;
+        
+        for(int ind = n - 1; ind >= 0; ind--)
+        {
+            // loot current house
+            int loot = arr[ind] + dp[ind + 2];
+            
+            // do not loot current house
+            int notLoot = dp[ind + 1];
+            
+            dp[ind] = max(loot, notLoot);
+        }
+        
+        return dp[0];
     }
 };
 
