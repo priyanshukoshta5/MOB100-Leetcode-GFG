@@ -6,27 +6,30 @@ public:
         if (nums.size() < 3) {
             return false;
         }
-
+        
         int n = nums.size();
-
+        
+        stack<int> stk;
+        
         vector<int> min_array(n);
         min_array[0] = nums[0];
-        for (int i = 1; i < n; i++) 
+        for (int i = 1; i < n ; i++) 
             min_array[i] = min(min_array[i - 1], nums[i]);
         
-        int k = nums.size();
         for (int j = n - 1; j > 0; j--) 
         {
             if (nums[j] <= min_array[j]) 
                 continue;
             
-            auto it = lower_bound(nums.begin() + k, nums.end(), min_array[j] + 1);
-            k = it - nums.begin();
-            if (k < nums.size() and nums[k] < nums[j]) 
+            while (!stk.empty() and stk.top() <= min_array[j]) 
+                stk.pop();
+            
+            if (!stk.empty() and stk.top() < nums[j]) 
                 return true;
             
-            nums[--k] = nums[j];
+            stk.push(nums[j]);
         }
+        
         return false;
     }
 };
