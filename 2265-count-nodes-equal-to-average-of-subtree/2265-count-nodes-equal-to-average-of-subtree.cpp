@@ -32,10 +32,7 @@ private:
                             left.nodes + right.nodes + 1, 
                             left.ansNodes + right.ansNodes);
 
-        if(cur.nodes != 0)
-            cur.ansNodes += (node->val == (cur.total / cur.nodes));
-        else
-            cur.ansNodes++;
+        cur.ansNodes += (node->val == (cur.total / cur.nodes));
 
         return cur;
     }
