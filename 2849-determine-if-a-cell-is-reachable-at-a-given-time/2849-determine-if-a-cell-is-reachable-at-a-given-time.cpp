@@ -4,6 +4,8 @@ public:
         if(sx == fx && sy == fy && t == 1)
             return false;
         int minTime = max(abs(fx - sx), abs(fy - sy));
-        return minTime <= t;
+        if(minTime <= t)
+            return true;
+        return false;
     }
 };
