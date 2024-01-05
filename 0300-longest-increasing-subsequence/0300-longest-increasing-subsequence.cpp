@@ -1,3 +1,5 @@
+// Time Complexity : O(n*log(n))
+
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
