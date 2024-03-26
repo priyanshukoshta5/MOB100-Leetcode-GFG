@@ -1,7 +1,7 @@
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
-        unordered_set<int> st;
+        set<int> st;
         for(int i: nums)
         {
             if(i > 0)
@@ -9,9 +9,9 @@ public:
         }
 
         int num = 1;
-        while(true)
+        for(int i: st)
         {
-            if(st.find(num) == st.end())
+            if(i != num)
                 break;
             num++;
         }
