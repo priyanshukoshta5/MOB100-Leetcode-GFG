@@ -26,6 +26,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0523-continuous-subarray-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0523-continuous-subarray-sum) |
 | [0876-hand-of-straights](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0876-hand-of-straights) |
 | [1044-find-common-characters](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1044-find-common-characters) |
+| [1217-relative-sort-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1217-relative-sort-array) |
 # Array
 |  |
 | ------- |
@@ -33,11 +34,13 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0876-hand-of-straights](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0876-hand-of-straights) |
 | [1044-find-common-characters](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1044-find-common-characters) |
 | [1137-height-checker](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1137-height-checker) |
+| [1217-relative-sort-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1217-relative-sort-array) |
 # Sorting
 |  |
 | ------- |
 | [0876-hand-of-straights](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0876-hand-of-straights) |
 | [1137-height-checker](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1137-height-checker) |
+| [1217-relative-sort-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1217-relative-sort-array) |
 # Math
 |  |
 | ------- |
@@ -50,3 +53,4 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1137-height-checker) |
+| [1217-relative-sort-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1217-relative-sort-array) |
