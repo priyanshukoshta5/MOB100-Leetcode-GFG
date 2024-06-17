@@ -7,6 +7,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0075-sort-colors) |
+| [0633-sum-of-square-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0633-sum-of-square-numbers) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # String
 |  |
@@ -48,6 +49,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0523-continuous-subarray-sum) |
+| [0633-sum-of-square-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0633-sum-of-square-numbers) |
 # Prefix Sum
 |  |
 | ------- |
@@ -57,3 +59,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [1137-height-checker](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1217-relative-sort-array) |
+# Binary Search
+|  |
+| ------- |
+| [0633-sum-of-square-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0633-sum-of-square-numbers) |
