@@ -15,6 +15,8 @@ private:
                 streak = 0;
                 cnt++;
             }
+            if(cnt == m)
+                break;
         }
 
         return cnt >= m;
