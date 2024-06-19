@@ -38,6 +38,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1044-find-common-characters](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1044-find-common-characters) |
 | [1137-height-checker](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1217-relative-sort-array) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Sorting
 |  |
 | ------- |
@@ -63,3 +64,4 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0633-sum-of-square-numbers) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
