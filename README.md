@@ -37,6 +37,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0876-hand-of-straights](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0876-hand-of-straights) |
 | [1044-find-common-characters](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1044-find-common-characters) |
 | [1137-height-checker](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1137-height-checker) |
+| [1138-grumpy-bookstore-owner](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1138-grumpy-bookstore-owner) |
 | [1217-relative-sort-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1217-relative-sort-array) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1675-magnetic-force-between-two-balls) |
@@ -68,3 +69,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0633-sum-of-square-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0633-sum-of-square-numbers) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1675-magnetic-force-between-two-balls) |
+# Sliding Window
+|  |
+| ------- |
+| [1138-grumpy-bookstore-owner](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1138-grumpy-bookstore-owner) |
