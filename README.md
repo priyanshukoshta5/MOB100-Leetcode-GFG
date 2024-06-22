@@ -29,6 +29,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0876-hand-of-straights](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0876-hand-of-straights) |
 | [1044-find-common-characters](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1044-find-common-characters) |
 | [1217-relative-sort-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1217-relative-sort-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1370-count-number-of-nice-subarrays) |
 # Array
 |  |
 | ------- |
@@ -39,6 +40,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1137-height-checker](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1137-height-checker) |
 | [1138-grumpy-bookstore-owner](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1138-grumpy-bookstore-owner) |
 | [1217-relative-sort-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1217-relative-sort-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1370-count-number-of-nice-subarrays) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1675-magnetic-force-between-two-balls) |
 # Sorting
@@ -54,6 +56,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0523-continuous-subarray-sum) |
 | [0633-sum-of-square-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0633-sum-of-square-numbers) |
+| [1370-count-number-of-nice-subarrays](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1370-count-number-of-nice-subarrays) |
 # Prefix Sum
 |  |
 | ------- |
@@ -73,3 +76,4 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [1138-grumpy-bookstore-owner](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1138-grumpy-bookstore-owner) |
+| [1370-count-number-of-nice-subarrays](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1370-count-number-of-nice-subarrays) |
