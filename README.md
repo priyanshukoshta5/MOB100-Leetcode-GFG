@@ -36,6 +36,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0075-sort-colors](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0075-sort-colors) |
 | [0523-continuous-subarray-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0523-continuous-subarray-sum) |
 | [0876-hand-of-straights](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0876-hand-of-straights) |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1044-find-common-characters](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1044-find-common-characters) |
 | [1137-height-checker](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1137-height-checker) |
 | [1138-grumpy-bookstore-owner](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1138-grumpy-bookstore-owner) |
@@ -62,6 +63,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0523-continuous-subarray-sum) |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 # Counting Sort
 |  |
 | ------- |
@@ -76,12 +78,14 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 # Sliding Window
 |  |
 | ------- |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1138-grumpy-bookstore-owner](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1138-grumpy-bookstore-owner) |
 | [1370-count-number-of-nice-subarrays](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1370-count-number-of-nice-subarrays) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 # Queue
 |  |
 | ------- |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 # Heap (Priority Queue)
 |  |
@@ -95,3 +99,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Bit Manipulation
+|  |
+| ------- |
+| [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
