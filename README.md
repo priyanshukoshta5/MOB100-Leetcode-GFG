@@ -103,3 +103,19 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+# Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Depth-First Search
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Binary Search Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Binary Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
