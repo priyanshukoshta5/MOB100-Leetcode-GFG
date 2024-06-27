@@ -128,3 +128,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [1285-balance-a-binary-search-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1285-balance-a-binary-search-tree) |
+# Graph
+|  |
+| ------- |
+| [1916-find-center-of-star-graph](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1916-find-center-of-star-graph) |
