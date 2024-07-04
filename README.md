@@ -189,4 +189,12 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
+## Linked List
+|  |
+| ------- |
+| [2299-merge-nodes-in-between-zeros](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2299-merge-nodes-in-between-zeros) |
+## Simulation
+|  |
+| ------- |
+| [2299-merge-nodes-in-between-zeros](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2299-merge-nodes-in-between-zeros) |
 <!---LeetCode Topics End-->
