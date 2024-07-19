@@ -177,6 +177,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1293-three-consecutive-odds](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1293-three-consecutive-odds) |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Hash Table
@@ -222,4 +223,8 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Matrix
+|  |
+| ------- |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1496-lucky-numbers-in-a-matrix) |
 <!---LeetCode Topics End-->
