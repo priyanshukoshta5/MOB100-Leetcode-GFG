@@ -152,6 +152,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2379-maximum-total-importance-of-roads](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2379-maximum-total-importance-of-roads) |
 | [2502-sort-the-people](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2502-sort-the-people) |
 ## Heap (Priority Queue)
@@ -184,6 +185,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1496-lucky-numbers-in-a-matrix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2472-build-a-matrix-with-conditions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2502-sort-the-people) |
@@ -191,6 +193,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
+| [1741-sort-array-by-increasing-frequency](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2502-sort-the-people) |
 ## Two Pointers
