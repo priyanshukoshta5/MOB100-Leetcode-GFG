@@ -242,6 +242,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## String
 |  |
 | ------- |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2502-sort-the-people) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -276,6 +277,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1511-count-number-of-teams) |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 ## Shortest Path
 |  |
 | ------- |
@@ -285,4 +287,8 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [1511-count-number-of-teams](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1511-count-number-of-teams) |
+## Stack
+|  |
+| ------- |
+| [1756-minimum-deletions-to-make-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 <!---LeetCode Topics End-->
