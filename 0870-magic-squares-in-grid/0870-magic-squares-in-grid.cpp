@@ -42,7 +42,7 @@ public:
         {
             for(int j = 0; j < m - 2; j++)
             {
-                if(isMagicSquare(grid, i, j))
+                if(grid[i][j] > 0 && grid[i][j] <= 9 && isMagicSquare(grid, i, j))
                     cnt++;
             }
         }
