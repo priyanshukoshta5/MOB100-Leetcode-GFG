@@ -188,6 +188,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0948-sort-an-array) |
 | [1196-filling-bookcase-shelves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1196-filling-bookcase-shelves) |
@@ -209,6 +210,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -238,6 +240,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0273-integer-to-english-words) |
+| [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [1642-water-bottles](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1642-water-bottles) |
 | [2645-pass-the-pillow](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2645-pass-the-pillow) |
 ## Tree
@@ -264,6 +267,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Matrix
 |  |
 | ------- |
+| [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0921-spiral-matrix-iii) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
