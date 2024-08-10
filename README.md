@@ -169,11 +169,13 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Depth-First Search
 |  |
 | ------- |
+| [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 ## Topological Sort
 |  |
@@ -183,6 +185,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Union Find
 |  |
 | ------- |
+| [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 ## Array
 |  |
@@ -191,6 +194,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0948-sort-an-array) |
+| [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1196-filling-bookcase-shelves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1196-filling-bookcase-shelves) |
 | [1293-three-consecutive-odds](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1333-sort-the-jumbled-numbers) |
@@ -211,6 +215,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
+| [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -269,6 +274,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0921-spiral-matrix-iii) |
+| [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2472-build-a-matrix-with-conditions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2472-build-a-matrix-with-conditions) |
