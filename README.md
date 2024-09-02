@@ -224,6 +224,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2035-count-sub-islands) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -254,6 +255,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Linked List
 |  |
 | ------- |
@@ -264,6 +266,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [0921-spiral-matrix-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0921-spiral-matrix-iii) |
 | [1642-water-bottles](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1642-water-bottles) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2645-pass-the-pillow) |
@@ -391,6 +394,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [1240-stone-game-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1240-stone-game-ii) |
+| [2006-find-the-student-that-will-replace-the-chalk](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Game Theory
 |  |
 | ------- |
