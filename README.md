@@ -211,6 +211,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0624-maximum-distance-in-arrays](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0624-maximum-distance-in-arrays) |
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0890-lemonade-change) |
+| [0906-walking-robot-simulation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0921-spiral-matrix-iii) |
 | [0948-sort-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0948-sort-an-array) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
@@ -240,6 +241,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0264-ugly-number-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0264-ugly-number-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
+| [0906-walking-robot-simulation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0906-walking-robot-simulation) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -264,6 +266,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Simulation
 |  |
 | ------- |
+| [0906-walking-robot-simulation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0921-spiral-matrix-iii) |
 | [1642-water-bottles](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1642-water-bottles) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
