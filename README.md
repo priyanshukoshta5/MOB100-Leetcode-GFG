@@ -183,6 +183,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1484-linked-list-in-binary-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2035-count-sub-islands) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Breadth-First Search
@@ -190,6 +191,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1484-linked-list-in-binary-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1484-linked-list-in-binary-tree) |
 | [2035-count-sub-islands](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2035-count-sub-islands) |
 ## Topological Sort
 |  |
@@ -262,6 +264,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Linked List
 |  |
 | ------- |
+| [1484-linked-list-in-binary-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Simulation
@@ -293,6 +296,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0145-binary-tree-postorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0145-binary-tree-postorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1484-linked-list-in-binary-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1484-linked-list-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
@@ -300,6 +304,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0145-binary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1484-linked-list-in-binary-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1484-linked-list-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2306-create-binary-tree-from-descriptions) |
 ## String
