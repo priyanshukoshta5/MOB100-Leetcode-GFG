@@ -423,6 +423,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0476-number-complement](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0476-number-complement) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Number Theory
 |  |
 | ------- |
