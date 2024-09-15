@@ -251,6 +251,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0906-walking-robot-simulation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0906-walking-robot-simulation) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -321,6 +322,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0273-integer-to-english-words) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2076-sum-of-digits-of-string-after-convert) |
@@ -421,6 +423,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [1240-stone-game-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1435-xor-queries-of-a-subarray) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## Game Theory
 |  |
@@ -431,6 +434,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [0476-number-complement](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1435-xor-queries-of-a-subarray) |
+| [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
