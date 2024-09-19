@@ -298,6 +298,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Math
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0539-minimum-time-difference) |
@@ -329,6 +330,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0179-largest-number) |
+| [0241-different-ways-to-add-parentheses](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0539-minimum-time-difference) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -381,6 +383,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Dynamic Programming
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0264-ugly-number-ii) |
 | [0650-2-keys-keyboard](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0650-2-keys-keyboard) |
 | [1196-filling-bookcase-shelves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1196-filling-bookcase-shelves) |
@@ -412,6 +415,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Recursion
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0273-integer-to-english-words) |
 ## Design
 |  |
@@ -457,4 +461,8 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Memoization
+|  |
+| ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0241-different-ways-to-add-parentheses) |
 <!---LeetCode Topics End-->
