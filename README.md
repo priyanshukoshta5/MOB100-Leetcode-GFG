@@ -182,6 +182,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0145-binary-tree-postorder-traversal) |
+| [0386-lexicographical-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0386-lexicographical-numbers) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
@@ -478,4 +479,8 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0214-shortest-palindrome) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
