@@ -483,4 +483,5 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0386-lexicographical-numbers) |
+| [0440-k-th-smallest-in-lexicographical-order](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 <!---LeetCode Topics End-->
