@@ -259,6 +259,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [0264-ugly-number-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0264-ugly-number-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0432-all-oone-data-structure](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0432-all-oone-data-structure) |
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [0906-walking-robot-simulation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -287,6 +288,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Linked List
 |  |
 | ------- |
+| [0432-all-oone-data-structure](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1484-linked-list-in-binary-tree) |
@@ -438,6 +440,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Design
 |  |
 | ------- |
+| [0432-all-oone-data-structure](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0432-all-oone-data-structure) |
 | [0729-my-calendar-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -521,4 +524,8 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0859-design-circular-deque](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0859-design-circular-deque) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
