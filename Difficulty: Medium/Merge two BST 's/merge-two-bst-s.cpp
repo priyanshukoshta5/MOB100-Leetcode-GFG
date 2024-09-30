@@ -93,12 +93,13 @@ struct Node {
 };
 */
 class Solution {
-  void inOrder(Node *root, vector<int> &a){
+  private:
+    void dfs(Node *root, vector<int> &arr){
         if(root == nullptr)
             return;
-        inOrder(root->left, a);
-        a.push_back(root->data);
-        inOrder(root->right, a);
+        arr.push_back(root->data);
+        dfs(root->left, arr);
+        dfs(root->right, arr);
         return;
     }
     
@@ -106,35 +107,11 @@ class Solution {
     // Function to return a list of integers denoting the node
     // values of both the BST in a sorted order.
     vector<int> merge(Node *root1, Node *root2) {
-        vector<int> arr1, arr2;
-        inOrder(root1, arr1);
-        inOrder(root2, arr2);
-        vector<int> mergedArr;
-        int i = 0, j = 0;
-        while(i < arr1.size() && j < arr2.size())
-        {
-            if(arr1[i] <= arr2[j])
-            {
-                mergedArr.push_back(arr1[i]);
-                i++;
-            }
-            else
-            {
-                mergedArr.push_back(arr2[j]);
-                j++;
-            }
-        }
-        while(i < arr1.size())
-        {
-            mergedArr.push_back(arr1[i]);
-            i++;
-        }
-        while(j < arr2.size())
-        {
-            mergedArr.push_back(arr2[j]);
-            j++;
-        }
-        return mergedArr;
+        vector<int> elements;
+        dfs(root1, elements);
+        dfs(root2, elements);
+        sort(elements.begin(), elements.end());
+        return elements;
     }
 };
 
