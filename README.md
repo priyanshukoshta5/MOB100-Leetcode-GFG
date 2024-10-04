@@ -169,6 +169,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1741-sort-array-by-increasing-frequency](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2379-maximum-total-importance-of-roads](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2379-maximum-total-importance-of-roads) |
 | [2502-sort-the-people](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2502-sort-the-people) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Heap (Priority Queue)
 |  |
@@ -255,6 +256,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2727-number-of-senior-citizens](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2755-extra-characters-in-a-string) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -279,6 +281,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2163-kth-distinct-string-in-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2502-sort-the-people) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2755-extra-characters-in-a-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -286,6 +289,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Binary Search
 |  |
 | ------- |
