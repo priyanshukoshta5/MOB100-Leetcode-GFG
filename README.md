@@ -325,6 +325,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2299-merge-nodes-in-between-zeros](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2411-spiral-matrix-iv](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2411-spiral-matrix-iv) |
 | [2645-pass-the-pillow](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2645-pass-the-pillow) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Math
 |  |
 | ------- |
@@ -377,6 +378,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2502-sort-the-people](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2755-extra-characters-in-a-string) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -448,6 +450,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0776-n-ary-tree-postorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Sliding Window
 |  |
 | ------- |
