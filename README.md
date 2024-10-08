@@ -142,6 +142,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0890-lemonade-change](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0890-lemonade-change) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2379-maximum-total-importance-of-roads](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2379-maximum-total-importance-of-roads) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Graph
@@ -293,6 +294,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0567-permutation-in-string) |
 | [1923-sentence-similarity-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1923-sentence-similarity-iii) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Binary Search
 |  |
@@ -372,6 +374,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1786-count-the-number-of-consistent-strings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1923-sentence-similarity-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1923-sentence-similarity-iii) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -450,6 +453,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0776-n-ary-tree-postorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Sliding Window
 |  |
