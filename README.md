@@ -140,6 +140,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0179-largest-number](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0179-largest-number) |
 | [0624-maximum-distance-in-arrays](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0670-maximum-swap](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0670-maximum-swap) |
 | [0890-lemonade-change](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1304-longest-happy-string) |
@@ -358,6 +359,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0273-integer-to-english-words](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0539-minimum-time-difference) |
 | [0650-2-keys-keyboard](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0650-2-keys-keyboard) |
+| [0670-maximum-swap](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0670-maximum-swap) |
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [1240-stone-game-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1240-stone-game-ii) |
 | [1642-water-bottles](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1642-water-bottles) |
