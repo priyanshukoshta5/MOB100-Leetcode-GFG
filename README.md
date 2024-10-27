@@ -260,6 +260,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1325-path-with-maximum-probability](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1333-sort-the-jumbled-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1435-xor-queries-of-a-subarray](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1435-xor-queries-of-a-subarray) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -444,6 +445,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2035-count-sub-islands](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2035-count-sub-islands) |
@@ -484,6 +486,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0650-2-keys-keyboard](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0650-2-keys-keyboard) |
 | [1196-filling-bookcase-shelves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1240-stone-game-ii) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1756-minimum-deletions-to-make-string-balanced) |
