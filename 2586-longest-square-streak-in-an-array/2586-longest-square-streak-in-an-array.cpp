@@ -15,6 +15,7 @@ public:
             {
                 mp[nums[i]] = 1 + mp[sq];
                 ans = max(ans, mp[nums[i]]);
+                mp.erase(mp[sq]);
             }
             else
                 mp[nums[i]] = 1;
