@@ -14,7 +14,7 @@ public:
             }
             while(cnt > 0)
             {
-                comp.append(to_string(min(cnt, 9)));
+                comp.push_back('0' + char(min(9, cnt)));
                 comp.push_back(ch);
                 cnt = max(0, cnt - 9);
             }
