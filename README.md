@@ -347,6 +347,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2586-longest-square-streak-in-an-array) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2755-extra-characters-in-a-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2755-extra-characters-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -474,6 +475,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2502-sort-the-people) |
 | [2580-circular-sentence](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2580-circular-sentence) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2727-number-of-senior-citizens](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -574,6 +576,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1755-defuse-the-bomb](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1755-defuse-the-bomb) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Recursion
