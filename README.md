@@ -262,6 +262,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0948-sort-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0948-sort-an-array) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1002-maximum-width-ramp) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1196-filling-bookcase-shelves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1240-stone-game-ii) |
 | [1256-rank-transform-of-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1256-rank-transform-of-an-array) |
@@ -333,6 +334,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0920-uncommon-words-from-two-sentences](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1256-rank-transform-of-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1256-rank-transform-of-an-array) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -493,6 +495,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
