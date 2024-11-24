@@ -147,6 +147,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [2089-maximum-matrix-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2089-maximum-matrix-sum) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2379-maximum-total-importance-of-roads](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2379-maximum-total-importance-of-roads) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -290,6 +291,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2035-count-sub-islands) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2089-maximum-matrix-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -503,6 +505,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1972-rotating-the-box](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1972-rotating-the-box) |
 | [2035-count-sub-islands](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2035-count-sub-islands) |
+| [2089-maximum-matrix-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2411-spiral-matrix-iv](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2411-spiral-matrix-iv) |
