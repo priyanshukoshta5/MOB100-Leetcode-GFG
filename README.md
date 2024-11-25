@@ -224,6 +224,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Breadth-First Search
 |  |
 | ------- |
+| [0787-sliding-puzzle](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0787-sliding-puzzle) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1484-linked-list-in-binary-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1484-linked-list-in-binary-tree) |
@@ -254,6 +255,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0729-my-calendar-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0731-my-calendar-ii) |
+| [0787-sliding-puzzle](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0787-sliding-puzzle) |
 | [0859-design-circular-deque](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0890-lemonade-change) |
@@ -496,6 +498,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Matrix
 |  |
 | ------- |
+| [0787-sliding-puzzle](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0787-sliding-puzzle) |
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
