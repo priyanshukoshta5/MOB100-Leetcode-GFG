@@ -20,7 +20,7 @@ public:
         st.insert(board);
         q.push(board);
         int move = 0;
-        while(move < 50)
+        while(move < 30)
         {
             int size = q.size();
             while(size--)
