@@ -11,7 +11,7 @@ public:
             while(j < start.length() && target[j] == '_')
                 j++;
 
-            if(i == start.length() || j == start.length() && start[i] != target[j])
+            if(i == start.length() || j == start.length())
                 return i == j;
             
             if(start[i] != target[j] || (start[i] == 'L' && i < j) || (start[i] == 'R' && i > j))
