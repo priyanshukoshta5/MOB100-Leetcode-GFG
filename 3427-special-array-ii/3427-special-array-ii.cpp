@@ -2,21 +2,14 @@ class Solution {
 public:
     vector<bool> isArraySpecial(vector<int>& nums, vector<vector<int>>& queries) {
         unordered_map<int, int> intervalIndex;
-        vector<vector<int>> intervals;
-        intervals.push_back({0, 0});
-        intervalIndex[0] = intervals.size();
+        int interval = 1;
+        intervalIndex[0] = interval;
         for(int i = 1; i < nums.size(); i++)
         {
             if(abs(nums[i] - nums[i - 1]) % 2 == 0)
-                intervals.push_back({i, i});
-            else
-                intervals.back()[1] = i;
-            
-            intervalIndex[i] = intervals.size();
+                interval++;
+            intervalIndex[i] = interval;
         }
-
-        // for(auto x: intervals)
-        //     cout<<x[0]<<" "<<x[1]<<endl;
 
         vector<bool> ans;
         for(auto q: queries)
