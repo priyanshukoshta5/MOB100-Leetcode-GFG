@@ -1,30 +1,18 @@
 class Solution {
-private:
-    int binSearch(int x, vector<vector<int>> &intervals){
-        int l = 0, r = intervals.size() - 1;
-        while(l <= r)
-        {
-            int m = l + (r - l) / 2;
-            if(x >= intervals[m][0] && x <= intervals[m][1])
-                return m;
-            else if(x < intervals[m][0])
-                r = m - 1;
-            else
-                l = m + 1;
-        }
-        return l;
-    }
-
 public:
     vector<bool> isArraySpecial(vector<int>& nums, vector<vector<int>>& queries) {
+        unordered_map<int, int> intervalIndex;
         vector<vector<int>> intervals;
         intervals.push_back({0, 0});
+        intervalIndex[0] = intervals.size();
         for(int i = 1; i < nums.size(); i++)
         {
             if(abs(nums[i] - nums[i - 1]) % 2 == 0)
                 intervals.push_back({i, i});
             else
                 intervals.back()[1] = i;
+            
+            intervalIndex[i] = intervals.size();
         }
 
         // for(auto x: intervals)
@@ -33,8 +21,8 @@ public:
         vector<bool> ans;
         for(auto q: queries)
         {
-            int left = binSearch(q[0], intervals);
-            int right = binSearch(q[1], intervals);
+            int left = intervalIndex[q[0]];
+            int right = intervalIndex[q[1]];
             ans.push_back(left == right);
         }
 
