@@ -1,35 +1,32 @@
 class Solution {
-private:
-    bool check(vector<int> &piles, int h, int mid){
-        for(int i = 0; i < piles.size(); i++)
-        {
-            h -= ((piles[i] / mid) + (piles[i] % mid != 0));
-            if(h < 0)
-                return false;
+public:
+    bool canEat(const vector<int>& piles, int m, int h) {
+        long long hours = 0;
+        int n = piles.size();
+
+        for (int i = 0; i < n; i++) {
+            hours += (piles[i] + m - 1) / m; // Efficient ceiling calculation
         }
-        
-        return true;
+
+        return hours <= h;
     }
 
-public:
     int minEatingSpeed(vector<int>& piles, int h) {
-        if(h < piles.size())
-            return -1;
-        
-        int low = 1, high = 0;
-        for(int i: piles)
-            high = max(high, i);
-        
-        while(low <= high)
-        {
+        int ans = 0;
+        int low = 1;
+        int high = *max_element(piles.begin(), piles.end());
+
+        while (low <= high) {
             int mid = low + (high - low) / 2;
-            // cout<<mid<<endl;
-            if(check(piles, h, mid))
+
+            if (canEat(piles, mid, h)) {
+                ans = mid;
                 high = mid - 1;
-            else
+            } else {
                 low = mid + 1;
+            }
         }
-        
-        return low;
+
+        return ans;
     }
 };
