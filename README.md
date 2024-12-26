@@ -288,6 +288,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0040-combination-sum-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0040-combination-sum-ii) |
 | [0179-largest-number](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0179-largest-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0494-target-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0494-target-sum) |
 | [0539-minimum-time-difference](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0539-minimum-time-difference) |
 | [0624-maximum-distance-in-arrays](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -645,6 +646,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0264-ugly-number-ii) |
+| [0494-target-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0650-2-keys-keyboard) |
 | [1196-filling-bookcase-shelves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1240-stone-game-ii) |
@@ -731,6 +733,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0040-combination-sum-ii) |
+| [0494-target-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0494-target-sum) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Prefix Sum
