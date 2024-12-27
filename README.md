@@ -306,6 +306,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0948-sort-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0948-sort-an-array) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1002-maximum-width-ramp) |
+| [1063-best-sightseeing-pair](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1063-best-sightseeing-pair) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1196-filling-bookcase-shelves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1240-stone-game-ii) |
@@ -648,6 +649,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0264-ugly-number-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0264-ugly-number-ii) |
 | [0494-target-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0650-2-keys-keyboard) |
+| [1063-best-sightseeing-pair](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1063-best-sightseeing-pair) |
 | [1196-filling-bookcase-shelves](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1240-stone-game-ii) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1402-count-square-submatrices-with-all-ones) |
