@@ -442,6 +442,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [3291-find-if-array-can-be-sorted](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3291-find-if-array-can-be-sorted) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3427-special-array-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3429-special-array-i) |
