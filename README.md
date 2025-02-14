@@ -367,6 +367,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1402-count-square-submatrices-with-all-ones](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1435-xor-queries-of-a-subarray](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1435-xor-queries-of-a-subarray) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1477-product-of-the-last-k-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1497-design-a-stack-with-increment-operation) |
@@ -598,6 +599,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0670-maximum-swap](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0670-maximum-swap) |
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [1240-stone-game-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1240-stone-game-ii) |
+| [1477-product-of-the-last-k-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
 | [1642-water-bottles](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1642-water-bottles) |
 | [2155-find-missing-observations](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2155-find-missing-observations) |
 | [2448-count-number-of-bad-pairs](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2448-count-number-of-bad-pairs) |
@@ -851,6 +853,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0731-my-calendar-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0859-design-circular-deque) |
+| [1477-product-of-the-last-k-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1497-design-a-stack-with-increment-operation) |
 | [2434-design-a-number-container-system](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2434-design-a-number-container-system) |
 ## Binary Search Tree
@@ -861,6 +864,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1477-product-of-the-last-k-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
 ## Backtracking
 |  |
 | ------- |
@@ -876,6 +880,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1240-stone-game-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1477-product-of-the-last-k-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1694-make-sum-divisible-by-p](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1694-make-sum-divisible-by-p) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
