@@ -261,6 +261,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0988-flip-equivalent-binary-trees](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0988-flip-equivalent-binary-trees) |
 | [0999-regions-cut-by-slashes](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0999-regions-cut-by-slashes) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1396-count-servers-that-communicate](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1396-count-servers-that-communicate) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -621,6 +622,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0776-n-ary-tree-postorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0988-flip-equivalent-binary-trees) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1484-linked-list-in-binary-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1484-linked-list-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -638,6 +640,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0515-find-largest-value-in-each-tree-row](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0988-flip-equivalent-binary-trees) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1484-linked-list-in-binary-tree](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1484-linked-list-in-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -659,6 +662,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0920-uncommon-words-from-two-sentences](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0952-word-subsets](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1160-letter-tile-possibilities) |
 | [1197-parsing-a-boolean-expression](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1197-parsing-a-boolean-expression) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1302-delete-characters-to-make-fancy-string) |
