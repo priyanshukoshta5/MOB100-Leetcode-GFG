@@ -428,6 +428,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2358-number-of-ways-to-split-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2358-number-of-ways-to-split-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2411-spiral-matrix-iv) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2448-count-number-of-bad-pairs) |
 | [2465-shifting-letters-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2465-shifting-letters-ii) |
 | [2472-build-a-matrix-with-conditions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2472-build-a-matrix-with-conditions) |
@@ -629,6 +630,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1642-water-bottles](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1642-water-bottles) |
 | [2155-find-missing-observations](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2155-find-missing-observations) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2448-count-number-of-bad-pairs) |
 | [2645-pass-the-pillow](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2645-pass-the-pillow) |
 | [2716-prime-subtraction-operation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2716-prime-subtraction-operation) |
