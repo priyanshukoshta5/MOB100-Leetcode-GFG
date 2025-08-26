@@ -12,7 +12,6 @@ public:
                 ans = l * w;
             }
             else if(maxDiag == diagSq){
-                maxDiag = diagSq;
                 ans = max(ans, l * w);
             }
         }
