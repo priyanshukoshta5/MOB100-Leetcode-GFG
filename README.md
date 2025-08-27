@@ -484,6 +484,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3790-fruits-into-baskets-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3790-fruits-into-baskets-ii) |
 ## Hash Table
 |  |
@@ -780,6 +781,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -843,6 +845,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2586-longest-square-streak-in-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Shortest Path
 |  |
 | ------- |
@@ -996,6 +999,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0241-different-ways-to-add-parentheses) |
+| [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Rolling Hash
 |  |
 | ------- |
