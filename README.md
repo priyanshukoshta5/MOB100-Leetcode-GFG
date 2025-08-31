@@ -340,6 +340,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0040-combination-sum-ii) |
 | [0179-largest-number](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0179-largest-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -493,6 +494,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0037-sudoku-solver) |
 | [0264-ugly-number-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0264-ugly-number-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0432-all-oone-data-structure](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0432-all-oone-data-structure) |
@@ -760,6 +762,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0037-sudoku-solver) |
 | [0407-trapping-rain-water-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0498-diagonal-traverse) |
 | [0787-sliding-puzzle](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0787-sliding-puzzle) |
@@ -936,6 +939,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0040-combination-sum-ii) |
 | [0494-target-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1160-letter-tile-possibilities) |
