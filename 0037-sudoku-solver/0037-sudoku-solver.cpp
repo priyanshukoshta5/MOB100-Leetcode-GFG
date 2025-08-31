@@ -1,63 +1,71 @@
 class Solution {
-    
+private:
+    int rowPresent[9][9];
+    int colPresent[9][9];
+    int boxPresent[3][3][9];
+    int flag = false;
+
+    void solve(int i, int j, vector<vector<char>> &board){
+        if(flag)
+            return;
+        if(i == 9){
+            // for(int x = 0; x < 9; x++){
+            //     for(int y = 0; y < 9; y++){
+            //         cout<<board[x][y]<<" ";
+            //     }
+            //     cout<<endl;
+            // }
+            flag = true;
+            return;
+        }
+
+        int nI, nJ;
+        if(j + 1 < 9){
+            nI = i;
+            nJ = j + 1;
+        }
+        else{
+            nI = i + 1;
+            nJ = 0;
+        }
+
+        if(board[i][j] == '.'){
+            for(int c = 1; c <= 9; c++){
+                if(!flag && !rowPresent[i][c - 1] && !colPresent[j][c - 1] && !boxPresent[i / 3][j / 3][c - 1]){
+                    board[i][j] = ('0' + c);
+                    rowPresent[i][c - 1] = true;
+                    colPresent[j][c - 1] = true;
+                    boxPresent[i / 3][j / 3][c - 1] = true;
+                    solve(nI, nJ, board);
+                    if(flag) return;
+                    rowPresent[i][c - 1] = false;
+                    colPresent[j][c - 1] = false;
+                    boxPresent[i / 3][j / 3][c - 1] = false;
+                    board[i][j] = '.';
+                }
+            }
+        }
+        else{
+            solve(nI, nJ, board);
+        }
+
+        return;
+    }
+
 public:
-    int rowFill[9][9] = {0};
-    int colFill[9][9] = {0};
-    int box[3][3][9] = {0};
-
-    bool solve(vector<vector<char>>& board, int row, int col){
-        if(row == 9)
-            return true;
-
-        int nextrow, nextcol;
-        if(col == 8)
-            nextrow=row+1, nextcol=0;
-        else
-            nextrow=row, nextcol=col+1;
-
-        bool flag = false;
-
-        if(board[row][col] != '.')
-            flag = solve(board, nextrow, nextcol);
-        else
-        {
-            for(int num=0; num<9; num++)
-            {
-                if(rowFill[num][row]==0  && colFill[num][col]==0 && box[row/3][col/3][num]==0)
-                {
-                    board[row][col] = char(num+'1');
-                    rowFill[num][row] = 1;
-                    colFill[num][col] = 1;
-                    box[row/3][col/3][num] = 1;
-
-                    flag = solve(board, nextrow, nextcol);
-                    if(flag == true)
-                        return true;
-                    
-                    board[row][col] = '.';
-                    rowFill[num][row] = 0;
-                    colFill[num][col] = 0;
-                    box[row/3][col/3][num] = 0;
-                }
-            }
-        }
-
-        return flag;
-    }    
-
     void solveSudoku(vector<vector<char>>& board) {
-        for(int i=0; i<9; i++)
-        {
-            for(int j=0; j<9; j++)
-            {
-                if(board[i][j] != '.')
-                {
-                    rowFill[board[i][j]-'1'][i] = 1;
-                    colFill[board[i][j]-'1'][j] = 1;
-                    box[i/3][j/3][board[i][j]-'1'] = 1;
-                }
+        flag = false;
+
+        // marking existing values in the board
+        for(int i = 0; i < 9; i++){
+            for(int j = 0; j < 9; j++){
+                if(board[i][j] == '.') continue;
+                rowPresent[i][board[i][j] - '1'] = true;
+                colPresent[j][board[i][j] - '1'] = true;
+                boxPresent[i / 3][j / 3][board[i][j] - '1'] = true;
             }
         }
-        solve(board, 0, 0);
+
+        solve(0, 0, board);
     }
 };
