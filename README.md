@@ -219,6 +219,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3291-find-if-array-can-be-sorted) |
 | [3430-count-days-without-meetings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3430-count-days-without-meetings) |
@@ -474,6 +475,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
+| [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3291-find-if-array-can-be-sorted](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3291-find-if-array-can-be-sorted) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -653,6 +655,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2716-prime-subtraction-operation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2716-prime-subtraction-operation) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -1080,6 +1083,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 |  |
 | ------- |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Monotonic Queue
 |  |
@@ -1093,5 +1097,6 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Geometry
 |  |
 | ------- |
+| [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 <!---LeetCode Topics End-->
