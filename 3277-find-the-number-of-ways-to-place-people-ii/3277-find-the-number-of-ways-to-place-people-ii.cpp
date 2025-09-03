@@ -17,8 +17,8 @@ public:
                 if(i == j)
                     continue;
 
-                auto &A = points[i];
-                auto &B = points[j];
+                const auto &A = points[i];
+                const auto &B = points[j];
                 
                 if(A[0] <= B[0] && A[1] >= B[1]){
                     bool flag = true;
@@ -26,7 +26,7 @@ public:
                         if(k == i || k == j)
                             continue;
                         
-                        auto &C = points[k];
+                        const auto &C = points[k];
                         if(C[1] >= B[1] && C[0] <= B[0] && C[1] <= A[1] && C[0] >= A[0]){
                             flag = false;
                             break;
