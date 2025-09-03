@@ -2,12 +2,15 @@
 
 class Solution {
 public:
+    bool static compare(vector<int> &a, vector<int> &b){
+        if(a[0] == b[0])
+            return a[1] > b[1];
+        return a[0] < b[0];
+    }
+
     int numberOfPairs(vector<vector<int>>& points) {
         int ans = 0;
-        sort(points.begin(), points.end(),
-             [](const vector<int>& a, const vector<int>& b) {
-                 return a[0] < b[0] || (a[0] == b[0] && a[1] > b[1]);
-             });
+        sort(points.begin(), points.end(), compare);
 
         for (int i = 0; i < points.size() - 1; i++) {
             const auto& pointA = points[i];
