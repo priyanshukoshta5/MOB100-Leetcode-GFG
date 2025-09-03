@@ -12,19 +12,29 @@ public:
         sort(points.begin(), points.end(), compare);
 
         int ans = 0;
-        for(int i = 0; i < n - 1; i++){
-            auto &A = points[i];
-            int xMin = A[0] - 1;
-            int xMax = INT_MAX;
-            int yMin = INT_MIN;
-            int yMax = A[1] + 1;
-
+        for(int i = 0; i < n; i++){
             for(int j = i + 1; j < n; j++){
+                if(i == j)
+                    continue;
+
+                auto &A = points[i];
                 auto &B = points[j];
-                if(B[0] > xMin && B[0] < xMax && B[1] > yMin && B[1] < yMax){ 
-                    ans++;
-                    xMin = B[0];
-                    yMin = B[1];
+                
+                if(A[0] <= B[0] && A[1] >= B[1]){
+                    bool flag = true;
+                    for(int k = i + 1; k < j; k++){
+                        if(k == i || k == j)
+                            continue;
+                        
+                        auto &C = points[k];
+                        if(C[1] >= B[1] && C[0] <= B[0] && C[1] <= A[1] && C[0] >= A[0]){
+                            flag = false;
+                            break;
+                        }
+                    }
+                    
+                    if(flag)
+                        ans++;
                 }
             }
         }
