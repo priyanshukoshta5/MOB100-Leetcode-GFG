@@ -1,5 +1,3 @@
-// Editorial
-
 class Solution {
 public:
     bool static compare(vector<int> &a, vector<int> &b){
@@ -9,26 +7,28 @@ public:
     }
 
     int numberOfPairs(vector<vector<int>>& points) {
-        int ans = 0;
+        int n = points.size();
+
         sort(points.begin(), points.end(), compare);
 
-        for (int i = 0; i < points.size() - 1; i++) {
-            const auto& pointA = points[i];
-            int xMin = pointA[0] - 1;
+        int ans = 0;
+        for(int i = 0; i < n - 1; i++){
+            auto &A = points[i];
+            int xMin = A[0] - 1;
             int xMax = INT_MAX;
             int yMin = INT_MIN;
-            int yMax = pointA[1] + 1;
+            int yMax = A[1] + 1;
 
-            for (int j = i + 1; j < points.size(); j++) {
-                const auto& pointB = points[j];
-                if (pointB[0] > xMin && pointB[0] < xMax && pointB[1] > yMin &&
-                    pointB[1] < yMax) {
+            for(int j = i + 1; j < n; j++){
+                auto &B = points[j];
+                if(B[0] > xMin && B[0] < xMax && B[1] > yMin && B[1] < yMax){ 
                     ans++;
-                    xMin = pointB[0];
-                    yMin = pointB[1];
+                    xMin = B[0];
+                    yMin = B[1];
                 }
             }
         }
+
         return ans;
     }
 };
