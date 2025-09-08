@@ -647,6 +647,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [0870-magic-squares-in-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/0870-magic-squares-in-grid) |
 | [1240-stone-game-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1240-stone-game-ii) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
+| [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1477-product-of-the-last-k-numbers](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1642-water-bottles](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1642-water-bottles) |
