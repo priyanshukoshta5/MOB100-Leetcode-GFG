@@ -517,6 +517,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1160-letter-tile-possibilities](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1160-letter-tile-possibilities) |
 | [1256-rank-transform-of-an-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1256-rank-transform-of-an-array) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1364-tuple-with-same-product](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1364-tuple-with-same-product) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -718,6 +719,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1160-letter-tile-possibilities) |
 | [1197-parsing-a-boolean-expression](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1197-parsing-a-boolean-expression) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1304-longest-happy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1350-remove-sub-folders-from-the-filesystem) |
