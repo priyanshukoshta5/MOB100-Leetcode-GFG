@@ -434,6 +434,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2358-number-of-ways-to-split-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2358-number-of-ways-to-split-array) |
@@ -654,6 +655,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1642-water-bottles](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/1642-water-bottles) |
 | [2155-find-missing-observations](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2155-find-missing-observations) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2448-count-number-of-bad-pairs) |
 | [2645-pass-the-pillow](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2645-pass-the-pillow) |
@@ -901,6 +903,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -1014,6 +1017,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 ## Number Theory
 |  |
 | ------- |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2716-prime-subtraction-operation](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Brainteaser
