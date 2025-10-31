@@ -494,6 +494,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3748-sort-matrix-by-diagonals](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3748-sort-matrix-by-diagonals) |
@@ -558,6 +559,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Two Pointers
 |  |
 | ------- |
@@ -668,6 +670,7 @@ Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3830-find-closest-person](https://github.com/priyanshukoshta5/MOB100-Leetcode-GFG/tree/master/3830-find-closest-person) |
 ## Tree
